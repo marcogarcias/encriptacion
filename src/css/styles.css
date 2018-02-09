@@ -1,0 +1,108 @@
+body {
+  font-size: 14px;
+}
+#header {
+  padding: 0;
+}
+header {
+  background-color: #729eda;
+  border: 2px solid #4a7abb;
+  box-shadow: 5px 5px 10px #666666;
+}
+header ul {
+  margin: 0;
+}
+header ul li {
+  display: inline-block;
+  margin: 0;
+}
+.btn-nav {
+  background-color: #729eda;
+  border: none;
+  color: #deedff;
+  font-weight: bold;
+  margin: 0;
+  padding: 1.5rem;
+}
+.btn-nav:hover {
+  background-color: #4a7abb;
+  cursor: pointer;
+  text-decoration: underline;
+}
+/**
+ * Formulario de password (login)
+ */
+
+.k {
+  background-color: #c2ddff;
+  border: 5px solid #729eda;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 1rem 1rem 2rem #999999;
+  margin-top: 5rem;
+  padding: 2rem;
+}
+.k #k-img-cont img {
+  width: 100%;
+}
+.k hr {
+  border: 1px solid #729eda;
+}
+.btn-1 {
+  background-color: #729eda;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: .3rem;
+}
+.btn-1:hover {
+  background-color: #4a7abb;
+  color: white;
+  text-decoration: underline;
+}
+.box {
+  background-color: #c2ddff;
+  border: 2px solid #4a7abb;
+  box-shadow: 5px 5px 10px #666666;
+  border-radius: 10px 10px 0 0;
+  margin-top: 5rem;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+.box-foot {
+  background-color: #4a7abb;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+}
+.box-foot ul {
+  margin: 0;
+  padding: 0;
+}
+.box-foot ul li {
+  display: inline-block;
+}
+/**
+ * botones blancos
+ */
+
+.btn-wh {
+  background-color: white;
+  color: #777777;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 5px;
+  padding: 5px;
+}
+.btn-wh:hover {
+  background-color: #cccccc;
+}
+/**
+ * ventana modal
+ */
+
+.modal-body-cont {
+  padding: 2rem;
+}

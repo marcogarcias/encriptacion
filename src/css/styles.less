@@ -1,0 +1,111 @@
+@bluelight1: #deedff;
+@bluelight2: #c2ddff;
+@bluedarck1: #729eda;
+@bluedarck2: #4a7abb;
+
+body{ font-size: 14px; }
+
+#header{
+  padding: 0;
+}
+
+header{
+  background-color: @bluedarck1;
+  border: 2px solid @bluedarck2;
+  box-shadow: 5px 5px 10px #666;
+  ul{
+    margin: 0;
+    li{
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+.btn-nav{
+  background-color: @bluedarck1;
+  border: none;
+  color: @bluelight1;
+  font-weight: bold;
+  margin: 0;
+  padding: 1.5rem;
+  &:hover{
+    background-color: @bluedarck2;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+/**
+ * Formulario de password (login)
+ */
+.k{
+  background-color: @bluelight2;
+  border: 5px solid @bluedarck1;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 1rem 1rem 2rem #999;
+  margin-top: 5rem;
+  padding: 2rem;
+  #k-img-cont img{ width: 100%; }
+  hr{ border: 1px solid @bluedarck1; }
+}
+
+.btn-1{
+    background-color: @bluedarck1;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: .3rem;
+  &:hover{
+    background-color: @bluedarck2;
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.box{
+  background-color: @bluelight2;
+  border: 2px solid @bluedarck2;
+  box-shadow: 5px 5px 10px #666;
+  border-radius: 10px 10px 0 0;
+  margin-top: 5rem;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.box-foot{
+  background-color: @bluedarck2;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      display: inline-block;
+    }
+  }
+}
+
+/**
+ * botones blancos
+ */
+.btn-wh{
+  background-color: #fff;
+  color: #777;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 5px;
+  padding: 5px;
+  &:hover{ background-color: #ccc; }
+}
+
+/**
+ * ventana modal
+ */
+.modal-body-cont{
+  padding: 2rem;
+}
